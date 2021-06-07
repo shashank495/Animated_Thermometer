@@ -1,12 +1,23 @@
 body {
-    background-color:darkslategray;
+  background-color: darkslategray;
 }
 
 .head {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fff;
-    font-size: 120px;
-    margin: 150px;
-    text-shadow: 0px 0px 14px #fff;
-
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  font-size: 120px;
+  margin: 150px;
+  text-shadow: 0px 0px 10px #fff;
 }
+
+@media only screen and (max-width: 850px) {
+  .head {
+    font-size: 60px;
+    margin: auto;
+    padding: 215px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+} ;
